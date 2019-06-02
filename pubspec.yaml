@@ -13,8 +13,9 @@ dev_dependencies:
 flutter:
   uses-material-design: true
   assets:
-    - assets/logo.png
-    - assets/alucard.jpg
+    - assets/fr.PNG
+    - assets/tu.PNG
+    - assets/hi.jpg
   fonts:
       - family: Nunito
         fonts:
