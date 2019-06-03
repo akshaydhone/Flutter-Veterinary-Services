@@ -16,6 +16,15 @@ flutter:
     - assets/fr.PNG
     - assets/tu.PNG
     - assets/hi.jpg
+    - assets/i1.PNG
+    - assets/i2.PNG
+    - assets/i3.PNG
+    - assets/i4.PNG
+    - assets/i5.PNG
+    - assets/i6.PNG
+    - assets/i7.PNG
+    - assets/i8.PNG
+    - assets/i11.PNG
   fonts:
       - family: Nunito
         fonts:

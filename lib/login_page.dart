@@ -1,5 +1,9 @@
 import 'package:flutter/material.dart';
 import 'package:login/home_page.dart';
+import 'artificial_insemination.dart';
+import 'pregnancy_diagnosis.dart';
+import 'calving.dart';
+
 
 class LoginPage extends StatefulWidget {
   static String tag = 'login-page';
@@ -61,7 +65,7 @@ class _LoginPageState extends State<LoginPage> {
 
     final loginButton = Padding(
 
-      padding: EdgeInsets.symmetric(vertical: 16.0,horizontal: 50.0),
+      padding: EdgeInsets.symmetric(vertical: 16.0,horizontal: 60.0),
 
 
       child: RaisedButton(
@@ -71,7 +75,7 @@ class _LoginPageState extends State<LoginPage> {
 
         ),
         onPressed: () {
-          Navigator.of(context).pushNamed(HomePage.tag);
+          Navigator.of(context).pushNamed(AIPage.tag);
         },
         padding: EdgeInsets.all(12),
         color: Colors.deepOrange[600],
@@ -82,12 +86,26 @@ class _LoginPageState extends State<LoginPage> {
     );
 
 
-    final foo = Hero(
-      tag: 'hero',
-      child: CircleAvatar(
-        backgroundColor: Colors.transparent,
-        radius: 48.0,
-        child: Image.asset('assets/fr.PNG'),
+
+
+
+
+    final dsk = Padding(
+      padding: EdgeInsets.symmetric(vertical: 16.0,horizontal:1.0),
+
+
+
+      child: Text(
+
+
+        '© DSK Milkotronics Pvt Ltd',
+
+        style: TextStyle(fontSize: 20.0, color: Colors.white,fontWeight: FontWeight.bold,background: Paint()..color = Colors.blue,),
+
+
+        textAlign: TextAlign.center,
+
+
       ),
     );
 
@@ -98,15 +116,19 @@ class _LoginPageState extends State<LoginPage> {
           shrinkWrap: true,
           padding: EdgeInsets.only(left: 54.0, right: 54.0),
           children: <Widget>[
+
             logo,
             aivs,
             SizedBox(height: 20.0),
             email,
             SizedBox(height: 8.0),
             password,
-            SizedBox(height: 14.0),
+            SizedBox(height: 8.0),
             loginButton,
-            foo,
+            SizedBox(height: 20.0),
+            dsk,
+            SizedBox(height: 20.0),
+
 
 
           ],
