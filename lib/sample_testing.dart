@@ -9,7 +9,7 @@ import 'package:login/sample_testing.dart';
 
 
 class SamplingPage extends StatefulWidget {
-  
+
   static String tag = 'sampling-page';
   @override
   _SamplingPageState createState() => new _SamplingPageState();
