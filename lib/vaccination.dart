@@ -56,7 +56,7 @@ class _VaccinationPageState extends State<VaccinationPage> {
 
       child: Text(
 
-        'Medicine Charges',
+        'Medicine Charge',
         style: TextStyle(fontSize: 23.0, color: Colors.black,fontWeight: FontWeight.bold),
         textAlign: TextAlign.left,
       ),
